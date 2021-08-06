@@ -1,9 +1,12 @@
 import { Component } from 'react'
 import './app.scss'
+import { foo } from './app.config'
 
 class App extends Component {
 
-  componentDidMount () {}
+  componentDidMount () {
+    console.log('foo', foo)
+  }
 
   componentDidShow () {}
 
