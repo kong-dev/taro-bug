@@ -27,7 +27,7 @@ const Item = memo(
     { data, index, id }: ComponentProps<VirtualListProps['item']>
   ) => {
     return <View id={id} style={{
-      background: index % 2 === 0 ? 'red' : 'blue',
+      background: index % 2 === 0 ? 'lightskyblue' : 'lightgrey',
     }}
     >{data[index]}</View>
   }
